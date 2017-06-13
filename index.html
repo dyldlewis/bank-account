@@ -9,13 +9,17 @@
   </head>
   <body>
     <div class="container">
-      <h1>Welcome to the Maxobaxo Credit Union!</h1>
+      <div class="jumbotron">
+        <h1>Maxobaxo Credit Union</h1>
+      </div>
       <div class="row">
-        <div class="col-md-6">
-          <div class="panel panel-info">
-            <h1>Register a new account:</h1>
-            <div class="panel-body">
-              <form id="register">
+        <form id="register">
+          <div class="col-md-6">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <h1>Register a new account:</h1>
+              </div>
+              <div class="panel-body">
                 <div class="form-group">
                   <label for="name">Name: </label>
                   <input id="name" type="text">
@@ -24,16 +28,20 @@
                   <label for="init-deposit">Initial Deposit: </label>
                   <input id="init-deposit" type="text">
                 </div>
+              </div>
+              <div class="panel-footer">
                 <button type="submit" class="btn btn-primary">Register</button>
-              </form>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="panel panel-info">
-            <h1>Deposit or withdraw funds:</h1>
-            <div class="panel-body">
-              <form id="transaction">
+        </form>
+        <form id="transaction">
+          <div class="col-md-6">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <h1>Deposit or withdraw funds:</h1>
+              </div>
+              <div class="panel-body">
                 <div class="form-group">
                   <label for="deposit">Deposit amount: </label>
                   <input id="deposit" type="text">
@@ -42,11 +50,13 @@
                   <label for="withdrawal">Withdrawal ammount: </label>
                   <input id="withdrawal" type="text">
                 </div>
+              </div>
+              <div class="panel-footer">
                 <button type="submit" class="btn btn-primary">Update</button>
-              </form>
+              </div>
             </div>
           </div>
-        </div>
+        </form>
       </div>
       <div class="output">
         <p>Balance: $<span id="balance"></span></p>
