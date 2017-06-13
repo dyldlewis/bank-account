@@ -25,12 +25,12 @@ BankAccount.prototype.withdrawalCash = function (withdrawal) {
 
 // user logic //
 $(document).ready(function() {
-  // var initialDeposit;
+  var initialDeposit;
   var userName;
-  // var newBankAccount;
-  // var deposit;
-  // var withdrawal;
-  // var revBankAccount;
+  var newBankAccount;
+  var deposit;
+  var withdrawal;
+  var revBankAccount;
   $("#register").submit(function(event) {
     event.preventDefault();
     initialDeposit = parseInt($("#init-deposit").val());
