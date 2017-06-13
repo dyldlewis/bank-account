@@ -1,0 +1,8 @@
+.output {
+  display: none;
+  border: solid lightblue 3px;
+  text-align: center;
+  font-size: 20px;
+  background-color: lightgrey;
+  padding-top: 5px;
+}
