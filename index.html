@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Bank Account</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to the Maxobaxo Credit Union!</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="panel panel-info">
+            <h1>Register a new account:</h1>
+            <form id="register">
+              <div class="form-group">
+                <label for="name">Name: </label>
+                <input id="name" type="text">
+              </div>
+              <div class="form-group">
+                <label for="init-deposit">Initial Deposit: </label>
+                <input id="init-deposit" type="text">
+              </div>
+              <button type="submit" class="btn btn-primary">Register</button>
+            </form>
+            <div class="panel-body">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="panel panel-info">
+            <h1>Deposit or withdraw funds:</h1>
+            <form id="transaction">
+              <div class="form-group">
+                <label for="deposit">Deposit amount: </label>
+                <input id="deposit" type="text">
+              </div>
+              <div class="form-group">
+                <label for="withdrawl">Withdrawal ammount: </label>
+                <input id="withdrawl" type="text">
+              </div>
+              <button type="submit" class="btn btn-primary">Update</button>
+            </form>
+            <div class="panel-body">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
